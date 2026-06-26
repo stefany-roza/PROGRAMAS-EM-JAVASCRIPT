@@ -1,0 +1,15 @@
+let produto = {
+    nome : "gerivaldo com jh", 
+    precoOriginal : 1400,
+    desconto : 0.15, 
+    valorFinal: function (){
+        return this.precoOriginal - (this.precoOriginal * this.desconto);
+    }
+}
+console.log(produto.nome);
+console.log(produto.precoOriginal);
+console.log(produto.desconto);
+console.log(produto.valorFinal());
+
+//console.log('produto: ${produto.nome} - R$ ${produto.precoOriginal}');
+console.log(`produto: ${produto.nome} - R$ ${produto.precoOriginal}`);
