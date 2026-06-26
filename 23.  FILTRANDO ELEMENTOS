@@ -1,0 +1,8 @@
+const filme = [
+    {titulo: "clube da luta", genero: "drama", idadeMinima: 18},
+    {titulo: "mario galaxy: o filme", genero:"animacao", idadeMinima: 0},
+    {titulo: "meu malvado favorito 3", genero: "animacao", idadeMinima: 0},
+    {titulo: "todo mundo em panico 6", genero: "comedia", idadeMinima: 18}];
+
+    const listaInfantil = filme.filter(filme => filme.idadeMinima === 0); 
+    console.log(listaInfantil); 
