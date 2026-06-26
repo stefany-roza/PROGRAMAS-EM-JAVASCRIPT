@@ -1,0 +1,9 @@
+let filmes = ["titanic", "panico", "jumanji"];
+
+filmes.push("rio");
+filmes.unshift("you");
+filmes.pop("rio");
+
+console.log(filmes[1]);
+console.log(filmes);
+console.log(filmes.length);
