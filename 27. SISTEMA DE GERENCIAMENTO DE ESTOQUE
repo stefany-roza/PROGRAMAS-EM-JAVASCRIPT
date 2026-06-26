@@ -1,0 +1,13 @@
+let estoque = [
+    {id: 1, nome: "compudator", preco: 2500, quantidade: 6},
+    {id: 2, nome: "mause", preco: 250,quantidade: 10},
+    {id: 3, nome: "headset", preco: 500, quantidade: 8},
+    ];
+    console.log(estoque[0].nome);
+    console.log(estoque[2].preco);
+    
+    estoque.push({id: 4, nome: "teclado gamer", preco: 900, quantidade: 5}); 
+    
+    estoque.shift(); 
+    
+    console.log(estoque[0].nome);
