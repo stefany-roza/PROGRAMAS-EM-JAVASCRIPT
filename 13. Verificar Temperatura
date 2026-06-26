@@ -1,0 +1,9 @@
+function temperatura ( a ){
+    a = Number(prompt("digite a temperatura: "));
+    if(a >= 30){
+        console.log("está calor.");
+    }else{
+        console.log("está um clima agradável.");
+    }
+}
+temperatura (); 
