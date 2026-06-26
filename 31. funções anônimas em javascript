@@ -1,0 +1,13 @@
+const mostrarMensagem = function () {return  mostrarMensagem; };
+console.log("Minha primeira fucao anonima!"); 
+
+const quadrado = function calcularQuadrado (numero) {return numero * numero; }; 
+console.log (quadrado (4));
+
+//const verificadorPar = function (numero) {return numero %2 === 0; }; 
+//console.log (verificadorPar(8));
+//console.log(verificadorPar(5)); 
+
+const verificadorPar = (numero) => {return numero %2 === 0};
+console.log(verificadorPar(8));
+console.log(verificadorPar(5)); 
