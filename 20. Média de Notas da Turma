@@ -1,0 +1,14 @@
+let somaTotal = 0; 
+const totalAlunos = 5;
+
+function verificadorNotas(numeroDoAluno) {
+    let nota = Number(prompt(`Digite a nota do aluno ${numeroDoAluno}:`));
+    somaTotal += nota;
+}
+for (let i = 1; i <= totalAlunos; i++) {
+    verificadorNotas(i);
+}
+const mediaTurma = somaTotal / totalAlunos;
+
+console.log(`Soma total das notas: ${somaTotal.toFixed(2)}`);
+alert(`A média aritmética da turma é: ${mediaTurma.toFixed(2)}`);
