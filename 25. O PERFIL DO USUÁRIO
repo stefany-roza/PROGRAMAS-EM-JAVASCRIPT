@@ -1,0 +1,20 @@
+let usuario = {
+    nome: "Gabriel Nunes", 
+    email: "gabriel.nunes@gmail.com", 
+    idade: 17, 
+   estaAtivo:true
+};
+console.log(usuario.nome);
+console.log(usuario.email);
+console.log(usuario.idade);
+console.log(usuario.estaAtivo);
+
+console.log(usuario.idade + 1); 
+
+usuario.telefone = 9992326758,
+console.log(usuario.telefone); 
+
+usuario.desativado = function desativado(){
+    return console.log("o usuario " + usuario.nome + "esta desativado."); 
+}
+console.log (usuario); 
