@@ -1,0 +1,10 @@
+function desconto ( a ){
+    a = Number (prompt ("digite a quantidade de protudos: ")); 
+    if (a >= 5){
+        console.log("tem direito a desconto.");
+    }else{
+        console.log("não tem direito a desconto.");
+    }
+         
+}
+desconto (); 
