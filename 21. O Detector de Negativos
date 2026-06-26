@@ -1,0 +1,11 @@
+ function detectorDeNegativo (){
+     
+     for(let i = 0; i <  8; i++){
+         let num = Number(prompt(`Digite o número ${i + 1} de 8: `));
+         
+          if(num < 0){
+         console.log ("numero negativo emcontrado: " + num);
+     }
+     }
+ }
+ detectorDeNegativo (); 
