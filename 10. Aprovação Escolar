@@ -1,0 +1,10 @@
+function verificadorNotas (){
+    let nota = Number (prompt("digita a nota: "));
+
+if(nota >= 10){
+    console.log("Aprovado"); 
+}else{
+    console.log("reprovado");
+}
+}
+verificadorNotas ();
