@@ -1,0 +1,9 @@
+let num = Number(prompt("Digite um numero\n"));
+
+
+
+if (num % 2){
+    console.log("O numero "+ num + "e par");
+}else{
+    console.log("O numero"+ num + "e impar");
+}
