@@ -1,0 +1,35 @@
+let escolaAluno = [
+    {nome: "jennifer", nota: 7, mediaNota: function(){
+       if(this.nota >= 7){
+           console.log("aprovado.");
+       }else{
+           console.log("reprovado.");
+       }
+   }},
+   
+   {nome: "jano", nota: 3, mediaNota: function(){
+       if(this.nota >= 7){
+           console.log("aprovado.");
+       }else{
+           console.log("reprovado.");
+       }
+   }},
+   
+    {nome: "jheraldo", nota: 6, mediaNota: function(){
+       if(this.nota >= 7){
+           console.log("aprovado.");
+       }else{
+           console.log("reprovado.");
+       }
+   }}];
+    
+   console.log( escolaAluno[0].nome, escolaAluno[0].nota);
+   console.log(escolaAluno[1].nome, escolaAluno[1].nota);
+    console.log(escolaAluno[2].nome, escolaAluno[2].nota);
+     escolaAluno[0].mediaNota();
+     escolaAluno[1].mediaNota();
+     escolaAluno[2].mediaNota();
+    
+    escolaAluno.forEach(aluno => {
+        console.log(`aluno ${aluno.nome}! com a nota ${aluno.nota}!`);
+    }); 
