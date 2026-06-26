@@ -1,0 +1,22 @@
+let compra = ["macaxeira", "café", "pão de queijo"]; 
+console.log (compra); 
+
+let filme = ["club da luta", "titanic", "star wars"]; 
+filme.unshift("titanic");
+console.log (filme);
+
+let herois = ["all might", "ironMan", "batman"]; 
+let opção = herois.pop();
+console.log (herois); 
+console.log (opção); 
+
+let num = [20, 30, 80];
+console.log (num.length);
+
+let misto = [20, "palavra", true];
+console.log (misto);
+
+let nome = ["carlos","Ana","Bia"];
+let primeiroNome = nome.shift();
+console.log (nome); 
+console.log (primeiroNome);
