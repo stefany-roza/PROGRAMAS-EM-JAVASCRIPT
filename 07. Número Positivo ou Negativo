@@ -1,0 +1,12 @@
+function verificadorPositivoNegativoZero (){
+    let num = Number(prompt("escreva um numero: ")); 
+
+if(num > 0){
+    console.log("positivo."); 
+}else if(num < 0){
+    console.log("negativo.");
+}else{
+    console.log("o numero é zero."); 
+}
+}
+verificadorPositivoNegativoZero ();
