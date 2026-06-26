@@ -1,0 +1,12 @@
+function verificadorAdmin (){
+    let ultilizador; 
+
+ultilizador = prompt("é admin ? (sim/não): ");
+
+if(ultilizador == "sim"){
+    console.log("Bem-vindo, administrador!");
+}else{
+    console.log("Bem-vindo, usuario comum!"); 
+}
+}
+verificadorAdmin ();
