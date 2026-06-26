@@ -1,0 +1,13 @@
+
+function compara (a , b){
+    a = Number (prompt ("digite o primeiro numero: ")); 
+    b = Number (prompt ("digite o segundo numero: ")); 
+    if (a > b){
+        console.log("a é maior do que b"); 
+    }else if (b > a){
+        console.log("b é maior do que a"); 
+    }else{
+        console.log("são iguais"); 
+    }
+}
+compara (); 
