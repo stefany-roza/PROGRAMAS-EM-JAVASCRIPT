@@ -1,0 +1,25 @@
+let carro = {
+    marca: "volkswagens", 
+    modelo : "polo", 
+    ano : 2012,
+    cor : "preto",
+}
+console.log(carro);
+console.log(carro.marca);
+console.log(carro.modelo);
+console.log(carro.ano);
+console.log(carro.cor);
+
+carro.cor = "prata",
+console.log(carro.cor);
+
+carro.preco = 15000,
+console.log(carro.preco);
+
+//(Desafio) Adicione um método chamado 'ligar' que exiba a mensagem: 
+  // "O carro [modelo] está ligado!". Teste o método no console.
+  
+  carro.ligar = function ligar (){
+      return console.log ("o carro " +this.modelo+ " esta ligado.");
+  }
+console.log (carro);
