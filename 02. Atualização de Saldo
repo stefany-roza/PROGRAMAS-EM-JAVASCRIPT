@@ -1,0 +1,6 @@
+let carteira = 50;
+
+carteira += 5;
+carteira -= 12; 
+
+console.log("o salto é " + carteira); 
