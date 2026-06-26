@@ -1,0 +1,5 @@
+onst nome  = "stefany";
+let idade = 18; 
+let energia = 100; 
+
+console.log("o heroi, "+ nome + "tem " + idade + "anos e sua energia atual é" + energia + ".");
