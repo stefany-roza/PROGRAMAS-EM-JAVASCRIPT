@@ -1,0 +1,39 @@
+//1: Transforme as funções tradicionais abaixo em Arrow Functions mantendo a estrutura padrão
+//(com chaves e return).
+
+const triplo = (numero) => {
+    return numero * 3
+    
+};
+console.log(triplo(5));
+
+const calcularMedia = (nota1, nota2) => {
+    return (nota1 + nota2)/2;
+};
+
+console.log(calcularMedia(4,5)); 
+
+//2: Reescreva as Arrow Functions abaixo aplicando as regras de simplificação (remova os parênteses
+//se houver apenas 1 parâmetro, remova as chaves {} e remova a palavra return).
+
+const verificarPar = (numero) =>{
+    return (numero %2 == 0); 
+};
+
+console.log(verificarPar(2));
+
+const converterCelsius = (fahrenheit) => {
+
+return (fahrenheit - 32) * 5/9;
+
+};
+console.log(converterCelsius(72));
+
+//3: Crie as seguintes Arrow Functions do zero de forma super simplificada (em apenas uma linha,
+//usando o retorno implícito):
+
+const somarMaisUm = (soma) =>  (soma + 1); 
+console.log(somarMaisUm (18));
+
+const subtrairUmNUmero = (a,b) => (a - b);
+console.log(subtrairUmNUmero(17,15));
