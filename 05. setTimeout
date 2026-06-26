@@ -1,4 +1,0 @@
-console.log("BOMBA ATIVADA..."); 
-setTimeout(() => { 
-    console.log("Boom"); 
-}, 4000);
