@@ -1,0 +1,6 @@
+let pontuação = 10;
+const nomeDeUsuario = "Player1";
+
+pontuação = 20;
+
+console.log(nomeDeUsuario + "fez " +pontuação + " pontos");
